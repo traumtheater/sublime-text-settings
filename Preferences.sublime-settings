@@ -49,13 +49,17 @@
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
-	"detect_indentation": true,
+	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": true,
 	"draw_centered": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
-	"draw_white_space": "all",
+	"draw_white_space": "selection",
+	"edge_sidebar_font_normal": true,
+	"edge_use_font_face": true,
+	"edge_use_sidebar_folder_icons": true,
+	"edge_use_tab_backgrounds": true,
 	"enable_hexadecimal_encoding": true,
 	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": false,
@@ -82,7 +86,8 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"*.pj"
 	],
 	"find_selected_text": true,
 	"fold_buttons": true,
@@ -91,7 +96,12 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		".idea",
+		"__pycache__",
+		"*.egg-info",
+		".tox",
+		".pytest_cache"
 	],
 	"font_face": "",
 	"font_options":
@@ -133,7 +143,7 @@
 	"match_tags": true,
 	"move_to_limit_on_up_down": false,
 	"open_files_in_new_window": false,
-	"overlay_scroll_bars": "system",
+	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
 	"remember_full_screen": false,
 	"rulers":
