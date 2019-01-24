@@ -1,0 +1,6 @@
+[
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap"},
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar"},
+    { "keys": ["ctrl+shift+c"],  "command": "toggle_fold_comments" },
+]
