@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
+    { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
+]
